@@ -283,7 +283,6 @@
     <None Include="Properties\PublishProfiles\VirginBTC.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Recaptcha.dll" />
-    <Content Include="Recaptcha.pdb" />
     <Content Include="Scripts\ace-extra.min.js" />
     <Content Include="Scripts\Admin\common-scripts.js" />
     <Content Include="Scripts\Admin\easy-pie-chart.js" />

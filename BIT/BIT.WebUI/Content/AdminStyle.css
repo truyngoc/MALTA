@@ -38,7 +38,7 @@ a, a:hover, a:focus {
 }
 
 ::-moz-selection {
-    background: #FF6C60;
+    background: #0F7BB9;
     color: #fff;
 }
 
@@ -313,7 +313,6 @@ ul.sidebar-menu li {
 
         ul.sidebar-menu li a span {
             color: #E73737;
-           
             font-size: 10pt;
         }
 
@@ -6354,8 +6353,8 @@ header.blue-bg .search {
     }
 
 .logo img {
-    height: 50px;
-    width: 160px;
+    height: 60px;
+    width: 217px;
 }
 
 .logo strong {
@@ -6380,8 +6379,8 @@ ul.sidebar-menu .hovered .bgslide {
     width: 100%;
 }
 
-.sub-menu:hover{
-   background-color: #727475 !important;
+.sub-menu:hover {
+    background-color: #727475 !important;
 }
 
 /*.bgslide {
@@ -6582,15 +6581,17 @@ img {
     width: 25px;
     background-image: url(../images/icon_translate.png);
 }
+
 .goog-te-gadget {
     width: 25px;
-    padding: 10px;
+    padding: 0px;
+    margin: 7px 10px;
 }
 
-.goog-te-gadget-simple, .goog-te-gadget div {
-    background-color: none !important;
-    border: none;
-}
+    .goog-te-gadget-simple, .goog-te-gadget div {
+        background-color: none !important;
+        border: none;
+    }
 
 .logo_login img {
     width: 160px;
@@ -6616,4 +6617,3 @@ img {
 .treeview li {
     width: 100%;
 }
-

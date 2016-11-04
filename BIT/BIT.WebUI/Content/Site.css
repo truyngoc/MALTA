@@ -57,7 +57,7 @@ input[type="password"] {
 }
 
 .navbar-nav {
-    float: right;
+    float: left;
 }
 
 .login-submit {
@@ -172,16 +172,14 @@ input[type="submit"] {
 }
 
 .navbar-inverse {
-    border-bottom: 20px solid #F6921E !important;
     color: #fff !important;
     margin-bottom: 0;
     padding: 14px 10px !important;
-    background-color: #E6E7E8 !important;
 }
 
 .mnvav {
-    background-color: #E6E7E8 !important;
-    color: #F6921E !important;
+    padding: 0 53px !important;
+    color: #FFFFFF !important;
     font-weight: bolder;
 }
 
@@ -212,6 +210,27 @@ input[type="submit"] {
     min-height: 1px;
 }
 
+.goog-te-menu-value img, .goog-te-menu-value span, .goog-te-gadget-simple img {
+    display: none;
+}
+
+.goog-te-gadget div {
+    height: 25px;
+    width: 25px;
+    background-image: url(../images/icon_translate.png);
+}
+
+.goog-te-gadget {
+    width: 25px;
+    padding: 0px;
+    margin: 7px 10px;
+}
+
+    .goog-te-gadget-simple, .goog-te-gadget div {
+        background-color: none !important;
+        border: none;
+    }
+
 .textwidget h3, .widgettitle {
     color: #f7941d;
     text-align: center;
@@ -228,7 +247,7 @@ input[type="submit"] {
 .goog-te-gadget-simple {
     background-color: #E6E7E8 !important;
 }
-/*  - dung de thay doi khoang cach giua cac row class trong Search Panel */
+/* TruyBN - dung de thay doi khoang cach giua cac row class trong Search Panel */
 .margin-top-03 {
     margin-top: 0.3em;
 }
@@ -255,4 +274,163 @@ input[type="submit"] {
 
 .margin-top-30 {
     margin-top: 3.0em;
+}
+
+header .top-line {
+    background: #000 none repeat scroll 0 0;
+    height: 40px;
+    line-height: 35px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.centered {
+    margin: 0 auto;
+    position: relative;
+    float: left;
+}
+
+.left_line {
+    float: right;
+    margin: 0 0px;
+}
+
+header .top-line .chooser {
+    float: right;
+    margin-left: 10px;
+}
+
+.logo img {
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
+img {
+    border: 0 none;
+}
+
+.logo {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.centered p {
+    color: #ffffff;
+    margin: 0 !important;
+}
+
+
+.chooser a img {
+    float: left;
+    margin-right: 2px;
+    margin-top: 10px;
+    width: 24px;
+    height: 16px;
+}
+
+.chooser a {
+    color: #ffffff;
+    font-size: 10px !important;
+    font-weight: bold;
+}
+
+.btn {
+    margin-left: 10px;
+}
+
+    .btn.yellow {
+        border: 3px solid #969817;
+        transition: all 0.5s linear 0s;
+    }
+
+.btn {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #ffffff;
+    font-family: Panton;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 30px;
+    text-decoration: none;
+}
+
+.pull-right {
+    float: right;
+}
+
+header .center-line .btn {
+    margin-left: 10px;
+}
+
+.btn.blue {
+    border: 3px solid #087cbf;
+    transition: all 0.5s linear 0s;
+}
+
+.btn {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #ffffff;
+    font-family: Panton;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 30px;
+    text-decoration: none;
+}
+
+.pull-right {
+    float: right;
+}
+
+.line_logo {
+    padding: 90px 70px;
+}
+
+.btn.blue:hover {
+    background: #087cbf none repeat scroll 0 0;
+    color: #ffffff;
+}
+
+.btn.yellow:hover {
+    background: #969817 none repeat scroll 0 0;
+    color: #ffffff;
+}
+
+.video {
+    height: 380px;
+    overflow: hidden;
+    padding-bottom: 25px;
+}
+
+.adv-description {
+    background: #ffffff none repeat scroll 0 0;
+    float: right;
+    font-size: 15px;
+    height: 340px;
+    padding: 15px;
+    width: 100%;
+}
+.adv-description h2{
+    padding-bottom: 10px !important;
+    margin: 0 !important;
+    font-size: 26px;
+    font-weight: 700;
+}
+.marker {
+    padding-left: 30px;
+}
+.adv-description li {
+    line-height: 18px;
+    padding: 5px 0;
+}
+ul.marker li {
+    list-style-image: url("../images/li-marker.png");
+}
+
+.adv-description span {
+    color: #8a8a8a;
+    font-size: 12px;
 }

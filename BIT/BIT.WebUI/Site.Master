@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BitQuick24.org</title>
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <meta charset="utf-8" />-
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="" />
     <meta name="author" content="Mosaddek" />
@@ -41,6 +41,7 @@
     <!-- Custom styles for this template -->
     <link href="Content/AdminStyle.css" rel="stylesheet" />
     <link href="Content/style-responsive.css" rel="stylesheet" />
+
     <!-- Start Alexa Certify Javascript -->
     <script type="text/javascript">
         _atrk_opts = { atrk_acct: "1ArLn1QolK1052", domain: "bitquick24.org", dynamic: true };
@@ -53,99 +54,124 @@
 </head>
 
 <body>
+    <header>
+        <div>
+            <div class="top-line">
+                <div class="centered">
+                    <p>income 0.75% per day Deposit 20 days</p>
+                </div>
+                <div class="left_line">
+
+                    <div class="chooser">
+                        <a class="language " href="/">
+                            <img src="images/ru-icon.png">
+                            VN
+                        </a>
+                    </div>
+                    <div class="chooser">
+                        <a class="language active" href="/en/">
+                            <img src="images/en-icon.png">
+                            EN
+                        </a>
+                    </div>
+                    <%--  <div id="google_translate_element"></div>
+                    <script type="text/javascript">
+                        function googleTranslateElementInit() {
+                            new google.translate.TranslateElement({ pageLanguage: 'vi', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, multilanguagePage: true }, 'google_translate_element');
+                        }
+                    </script>
+                    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>--%>
+                </div>
+            </div>
+            <div class="" style="clear: both; background-image: url('images/header-bg.png')!important;">
+                <div class="line_logo">
+                    <div class="divlogo">
+                        <a class="logo" href="/en/">
+                            <img src="images/logo.png" alt="logo malta">
+                        </a>
+                    </div>
+                    <div class="divbuttonHeader">
+                        <a class="btn blue pull-right fancybox" href="#register">Sign Up</a>
+                        <a class="btn yellow pull-right fancybox" href="#singin">Enter Site</a>
+                    </div>
+                </div>
+                <div style="clear: both"></div>
+                <div id="menu-navigation">
+                    <nav class="navbar navbar-inverse" role="navigation">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header ">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <!---Logo--->
+
+                            <!---end of Logo--->
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li>
+                                    <a class="mnvav" href="/">HOME</a>
+                                </li>
+                                <li>
+                                    <a class="mnvav" href="#about"><strong>ABOUT</strong></a>
+                                </li>
+                                <li>
+                                    <a class="mnvav" href="#vision"><strong>INVESTMENTS</strong></a>
+                                </li>
+                                <li>
+                                    <a class="mnvav" href="/Admin/login.aspx">PARTNERS</a>
+                                </li>
+                                <li>
+                                    <a class="mnvav" href="/Admin/login.aspx">NEWS</a>
+                                </li>
+                                <li>
+                                    <a class="mnvav" href="/Admin/login.aspx">FAQ</a>
+                                </li>
+                                <li>
+                                    <a class="mnvav" href="/Admin/login.aspx">CONTACTS</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
     <!-- Navigation -->
-    <div id="menu-navigation">
-        <nav class="navbar navbar-inverse" role="navigation" style="background-color: #E6E7E8 !important; border-bottom: 10px solid #F6921E;">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header ">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <!---Logo--->
-                <a class="navbar-brand" href="/">
-                    <img src="images/logo_BitQuick.png" />
-                </a>
-                <!---end of Logo--->
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a class="mnvav" href="/">HOME</a>
-                    </li>
-                    <li>
-                        <a class="mnvav" href="#about"><strong>ABOUT</strong></a>
-                    </li>
-                    <li>
-                        <a class="mnvav" href="#vision"><strong>VISION</strong></a>
-                    </li>
-                    <li>
-                        <a class="mnvav" href="/Admin/login.aspx">LOGIN</a>
-                    </li>
-                    <li>
-                        <div id="google_translate_element"></div>
-                        <script type="text/javascript">
-                            function googleTranslateElementInit() {
-                                new google.translate.TranslateElement({ pageLanguage: 'vi', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, multilanguagePage: true }, 'google_translate_element');
-                            }
-                        </script>
-                        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </nav>
-    </div>
+
+
+
     <!-- end header -->
 
     <!-- Full Page Image Background Carousel Header -->
-    <header class="carousel slide" id="myCarousel">
+    <%--<header class="carousel slide" id="myCarousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
-            <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+            <li class="" data-slide-to="0" data-target="#myCarousel"></li>
             <li data-slide-to="1" data-target="#myCarousel" class=""></li>
-            <li data-slide-to="2" data-target="#myCarousel" class=""></li>
-            <li data-slide-to="3" data-target="#myCarousel" class=""></li>
-            <li data-slide-to="4" data-target="#myCarousel" class=""></li>
+            <li data-slide-to="2" data-target="#myCarousel" class="active"></li>
         </ol>
         <!-- Wrapper for Slides -->
         <div class="carousel-inner">
             <div class="item next left">
-                <!-- Set the second background image using inline CSS below. -->
-                <div style="background-image: url('images/Slide5.jpg');" class="fill">
-                    <img src="images/Slide5.jpg" style="height: 408px;" />
-                </div>
-                <div class="carousel-caption">
-                </div>
-                <div class="grid"></div>
-            </div>
-            <div class="item ">
                 <!-- Set the third background image using inline CSS below. -->
                 <div style="background-image: url('images/slide-2.jpg');" class="fill">
-                    <img src="images/slide-2.jpg" style="height: 408px;" />
+                    <img src="images/slide-2.jpg" style="height:408px;" />
                 </div>
                 <div class="carousel-caption">
                 </div>
                 <div class="grid"></div>
             </div>
-
-            <div class="item">
-                <!-- Set the second background image using inline CSS below. -->
-                <div style="background-image: url('images/Slide4.jpg');" class="fill">
-                    <img src="images/Slide4.jpg" style="height: 408px;" />
-                </div>
-                <div class="carousel-caption">
-                </div>
-                <div class="grid"></div>
-            </div>
-
             <div class="item">
                 <!-- Set the first background image using inline CSS below. -->
                 <div style="background-image: url('images/slide-3.jpg');" class="fill">
-                    <img src="images/slide-3.jpg" style="height: 408px;" />
+                    <img src="images/slide-3.jpg" style="height:408px;"/>
                 </div>
                 <div class="carousel-caption">
                 </div>
@@ -154,7 +180,7 @@
             <div class="item active left">
                 <!-- Set the second background image using inline CSS below. -->
                 <div style="background-image: url('images/slide-1.jpg');" class="fill">
-                    <img src="images/slide-1.jpg" style="height: 408px;" />
+                    <img src="images/slide-1.jpg" style="height:408px;"/>
                 </div>
                 <div class="carousel-caption">
                 </div>
@@ -168,151 +194,148 @@
         <a data-slide="next" href="#myCarousel" class="right carousel-control">
             <span class="icon-next"></span>
         </a>
-    </header>
+    </header>--%>
 
     <!-- ABOUT US -->
     <div id="about" style="padding: 30px 0;">
         <div class="container">
             <!-- ABOUT US -->
-            <div style="padding: 30px 0;" class="col-lg-12">
-                <div class="col-lg-6">
-                    <img style="border: 5px solid #404041;" src="images/pic_aboutus.jpg" />
+            <div style="" class="col-lg-12">
+                <div class="col-lg-7">
+                    <div class="video">
+                        <iframe src="https://www.youtube.com/embed/xf9hjsuICgw" allowfullscreen="" width="100%" height="340" frameborder="0"></iframe>
+                        <img src="../images/video-shadow.png" />
+                    </div>
                 </div>
-                <div class="col-lg-6 txtpadding">
-                    <h2 class="aboutus title_lg" style="color: #F6921E;">ABOUT <span>US</span></h2>
-                    <p>BitQuick 24 is a community of people who provide financial helping on the principle of reciprocity of mercy. We use infrastructure of Bitcoin in our transactions. In BITQUICK24, people don’t have to make any contracts of property. In BitQuick 24, where is no lender and no debtors. Everything is very simple: one participant asks for help &ndash; another one helps. The only thing that BitQuick 24 demands from its participants is to be honest and kind to each other. People ask for financial helping when they need it, and then people also need to give financial helping to the others when they are able to do it. With BitQuick 24 everyone has an equal chance to make money and build their wealth and dream and it is unique in the way that it is a community project based on honesty and trust of the members.</p>
-                    <p>BitQuick 24 uses Bitcoin as a currency for trading. It is the best possible way for participants from different countries. As Bitcoin cause a revolution in financial relationship between people and people, this combination of BitQuick 24 and Bitcoin ideas, which is fair and free financial system, make possible for us to create significant changes in modern world.</p>
+                <div class="col-lg-4 txtpadding">
+                    <div class="advantages">
+                        <div class="adv-description">
+                            <h2>ADVANTAGES</h2>
+                            <ul class="marker">
+                                <li>Official company</li>
+                                <li>High income<br>
+                                    <span>(0.75% per business day, payments on a daily basis)</span></li>
+                                <li>a Deposit of just 20 business days</li>
+                                <li>Reinvestment funds</li>
+                                <li>Diversification of invested assets</li>
+                                <li>Deposit Insurance</li>
+                                <li>High-Quality online customer support</li>
+                                <li>A company Website is securely protected from external attacks</li>
+                            </ul>
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- end ABOUT US -->
 
-    <!-- VISION -->
-    <div id="vision">
+
+    <div class="Image_line">
         <div class="container">
-            <div style="padding: 30px 0;" class="col-lg-12">
-                <div class="col-lg-6">
-                    <h2 class="vision title_lg">VISION</h2>
-                    <p style="text-align: justify;">Through BitQuick 24, we want to develop a community where Bitsun uses the trending of 2016 that makes people around the world get closer. They are exalting. According to experts, this trend will last about 5 to 10 years. It is a wave of Providing Help and Getting Help. Like the period of the gold, era of real estate, era of technology, if people know how grasp these opportunities, they may be a millionaire.</p>
-                    <p style="text-align: justify;">However, it is just the past. Nowadays, the developing combined community with technology is a big trend. If people can grasp it now, they can change their life. We want people to join with us going on a boat of new trends and then we are the pioneer leader. Besides, BitQuick 24 increases income for people in a short time, moreover, it develops the community. When this trend explode, your life are in a new progress.</p>
+            <!-- ABOUT US -->
+            <div style="" class="col-lg-12">
+                <div class="col-lg-4">
+                    <img src="images/1.jpg" alt="">
                 </div>
-                <div class="col-lg-6">
-                    <img src="images/vision.jpg">
+                <div class="col-lg-4">
+                    <img src="images/2.jpg" alt="">
+                </div>
+
+                <div class="col-lg-4">
+                    <img src="images/3.jpg" alt="">
                 </div>
             </div>
         </div>
     </div>
-    <!-- end VISION -->
 
-    <!--Contact us-->
-    <div id="register">
+
+
+    <div id="about" style="padding: 30px 0;">
         <div class="container">
-            <div class="row">
-                <div class="footer-widget">
-                    <div class="span3">
-                        <ul>
-                            <li class="widget widget_text" id="text-2">
-                                <div class="textwidget">
-                                    <h3>Contact Us</h3>
-                                    <p>
-                                        Athena Bitcoin, Inc.<br>
-                                        Chicago, Saint Louis, Dallas<br>
-                                        <a href="http://www.athenabitcoin.com">AthenaBitcoin.com</a><br>
-                                    </p>
-                                    <p>
-                                        Email: <a href="mailto:orders@bitquick.co">orders@bitquick.co</a><br>
-                                    </p>
-                                    <h3>Business Hours</h3>
-                                    <p>
-                                        Monday - Friday: 8 AM - 10 PM EST<br>
-                                        Saturday - Sunday: 9 AM - 8 PM EST
-                                    </p>
-                                </div>
-                            </li>
-                        </ul>
+            <!-- ABOUT US -->
+            <div style="" class="col-lg-12">
+                <div class="col-lg-7">
+                    <div class="graf">
+                        <h2>The direction of investment</h2>
+                        <div class="wrap-canvas">
+                            <div class="legend">
+                                <div class="leg1">Currency market <strong>30%</strong></div>
+                                <div class="leg2">Precious metals <strong>22%</strong></div>
+                                <div class="leg3">The stock market <strong>4%</strong></div>
+                                <div class="leg4">Futures <strong>30%</strong></div>
+                                <div class="leg5">Startups <strong>4%</strong></div>
+                                <div class="leg6">Options <strong>10%</strong></div>
+                            </div>
+                            <div class="total">
+                                funds
+                                <br>
+                                in the management<br>
+                                <span>6 190 740</span><br>
+                                <img src="images/usd.png" alt="">
+                            </div>
+                            <canvas id="diagram" width="360" height="360" style="width: 360px; height: 360px;"></canvas>
+                        </div>
+                        <script>
+                            var data = [
+                                {
+                                    value: 30,
+                                    color: "#ff6c00",
+                                    highlight: "#ff6c00",
+                                    label: "Currency market"
+                                },
+                                {
+                                    value: 22,
+                                    color: "#5a9300",
+                                    highlight: "#5a9300",
+                                    label: "Precious metals"
+                                },
+                                {
+                                    value: 4,
+                                    color: "#00afc9",
+                                    highlight: "#00afc9",
+                                    label: "The stock market"
+                                },
+                                {
+                                    value: 30,
+                                    color: "#e0277a",
+                                    highlight: "#e0277a",
+                                    label: "Futures"
+                                },
+                                {
+                                    value: 4,
+                                    color: "#743600",
+                                    highlight: "#743600",
+                                    label: "Startups"
+                                },
+                                {
+                                    value: 10,
+                                    color: "#5c2d9c",
+                                    highlight: "#5c2d9c",
+                                    label: "Options"
+                                }
+                            ];
+
+                            var options = {
+                                percentageInnerCutout: 80,
+                                segmentStrokeWidth: 1
+                            }
+
+                            //график на главную
+                            var ctx = document.getElementById("diagram").getContext("2d");
+                            var myDoughnutChart = new Chart(ctx).Doughnut(data, options);
+                        </script>
+
                     </div>
                 </div>
-
-                <div class="footer-widget">
-                    <div class="span3">
-                        <ul>
-                            <li class="widget widget_text" id="text-2">
-                                <div class="textwidget">
-                                    <h3>The Team</h3>
-                                    <a href="http://www.athenabitcoin.com" target="_blank">
-                                        <img width="" src="images/Athena_Bitcoin_OWL.png"></a>
-                                    <p>Athena Bitcoin, Inc.</p>
-                                    <p>
-                                        The most trusted name in Bitcoin ATM
-                                        <a class="fa fa-twitter" href="http://twitter.com/AthenaBitcoin" target="_blank"></a>
-                                        <a class="fa fa-facebook" href="https://facebook.com/AthenaBitcoin" target="_blank"></a>
-                                    </p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="col-lg-4 txtpadding">
                 </div>
-
-                <div class="footer-widget">
-                    <div class="span3">
-                        <ul>
-                            <li class="widget widget_text" id="recent-posts-2">
-                                <div class="textwidget">
-                                    <h3>THE LATEST FROM BITQUICK</h3>
-                                    <ul>
-                                        <li>
-                                            <a href="/blog/bitquick-launches-new-affiliate-program.php">BitQuick Launches New Affiliate Program</a>
-                                        </li>
-                                        <li>
-                                            <a href="/blog/bitpay-crowdcurity-bitgo-and-clef-speak-on-bitcoin-security-at-bitpanel.php">BitPay, CrowdCurity, BitGo, and Clef speak on Bitcoin Security at BitPanel</a>
-                                        </li>
-
-                                        <li>
-                                            <a href="/blog/save-20-at-starbucks-when-you-turn-your-cash-into-bitcoin-with-bitquick-and-fold.php">Save 20% at Starbucks when you turn your cash into Bitcoin with BitQuick and Fold</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="footer-widget">
-                    <div class="span3">
-                        <ul>
-                            <li class="widget widget_text" id="text-5">
-                                <div class="textwidget">
-                                    <h3 class="widgettitle">TERMS OF SERVICE</h3>
-                                    <div class="textwidget">
-                                        <p>View our <a href="/terms-of-service.php">Terms of Service/Privacy Policy</a> agreement.</p>
-                                        <br>
-                                        <br>
-                                        <a href="https://bitcointalk.org/index.php?topic=262082.0">BitcoinTalk Forums</a>
-                                        <br>
-                                        <h2 class="widgettitle">Recommended Wallets:</h2>
-                                        <a href="https://play.google.com/store/apps/details?id=com.athenabitcoin.wallet&amp;hl=en&amp;utm_source=global_co&amp;utm_medium=prtnr&amp;utm_content=Mar2515&amp;utm_campaign=PartBadge&amp;pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
-                                            <img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" alt="Get it on Google Play"></a>
-                                        <br>
-                                        <br>
-                                        <a href="https://itunes.apple.com/us/app/athena-bitcoin/id1087704508?ls=1&amp;mt=8">
-                                            <img src="images/App_Store_Badge_US-UK_135x40.svg" alt="Download on iTunes"></a>
-                                        <br>
-                                        <br>
-                                        <a href="https://blockchain.info" target="_blank">
-                                            <img src="images/blockchain-logo-vector.svg" alt="Click to blockchain"></a>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
             </div>
         </div>
     </div>
-    <!--End of Contact us-->
 
+    
     <!-- footer -->
     <div id="footer">
         <div class="container">
@@ -339,5 +362,7 @@
         <asp:ContentPlaceHolder ID="MainContent" runat="server">
         </asp:ContentPlaceHolder>
     </div>
+
+
 </body>
 </html>

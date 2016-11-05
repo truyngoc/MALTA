@@ -74,7 +74,7 @@
                             EN
                         </a>
                     </div>
-                   
+
                 </div>
             </div>
             <div class="" style="clear: both; background-image: url('images/header-bg.png')!important;">
@@ -136,166 +136,86 @@
             </div>
         </div>
     </header>
-
     <!-- Navigation -->
-
-
-
-    <!-- end header -->
-    <!-- ABOUT US -->
-    <div id="" style="padding: 30px 0;">
-        <div class="container">
-            <!-- ABOUT US -->
-            <div style="" class="col-lg-12">
-                <div class="col-lg-7">
-                    <div class="video">
-                        <iframe src="https://www.youtube.com/embed/xf9hjsuICgw" allowfullscreen="" width="100%" height="340" frameborder="0"></iframe>
-                        <img src="../images/video-shadow.png" />
-                    </div>
-                </div>
-                <div class="col-lg-4 txtpadding">
-                    <div class="advantages">
-                        <div class="adv-description">
-                            <h2>ADVANTAGES</h2>
-                            <ul class="marker">
-                                <li>Official company</li>
-                                <li>High income<br>
-                                    <span>(0.75% per business day, payments on a daily basis)</span></li>
-                                <li>a Deposit of just 20 business days</li>
-                                <li>Reinvestment funds</li>
-                                <li>Diversification of invested assets</li>
-                                <li>Deposit Insurance</li>
-                                <li>High-Quality online customer support</li>
-                                <li>A company Website is securely protected from external attacks</li>
-                            </ul>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+     <div class="container body-content">
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
     </div>
-    <!-- end ABOUT US -->
-
-
-    <div class="Image_line">
-        <div class="container">
-            <!-- ABOUT US -->
-            <div style="" class="col-lg-12">
-                <div class="col-lg-4">
-                    <img src="images/1.jpg" alt="">
+    <div id="about" style="padding: 15px 0; ">
+        <div class="container ">
+            <div class="about-main">
+                <div class="col-md-2">
+                    <img src="images/visa.png" alt="">
                 </div>
-                <div class="col-lg-4">
-                    <img src="images/2.jpg" alt="">
+                <div class="col-md-2">
+                    <img src="images/mc.png" alt="">
+                </div>
+                <div class="col-md-2">
+                    <img src="images/qiwi.png" alt="">
+                </div>
+                <div class="col-md-2">
+                    <img src="images/yad.png" alt="">
+                </div>
+                <div class="col-md-2">
+                    <img src="images/pf.png" alt="">
                 </div>
 
-                <div class="col-lg-4">
-                    <img src="images/3.jpg" alt="">
-                </div>
             </div>
         </div>
     </div>
 
-
-
-    <div id="about" style="padding: 30px 0;">
-        <div class="container">
-            <!-- ABOUT US -->
-            <div style="" class="col-lg-12">
-                <div class="col-lg-7">
-                    <div class="graf">
-                        <h2>The direction of investment</h2>
-                        <div class="wrap-canvas">
-                            <div class="legend">
-                                <div class="leg1">Currency market <strong>30%</strong></div>
-                                <div class="leg2">Precious metals <strong>22%</strong></div>
-                                <div class="leg3">The stock market <strong>4%</strong></div>
-                                <div class="leg4">Futures <strong>30%</strong></div>
-                                <div class="leg5">Startups <strong>4%</strong></div>
-                                <div class="leg6">Options <strong>10%</strong></div>
-                            </div>
-                            <div class="total">
-                                funds
-                                <br>
-                                in the management<br>
-                                <span>6 190 740</span><br>
-                                <img src="images/usd.png" alt="">
-                            </div>
-                            <canvas id="diagram" width="360" height="360" style="width: 360px; height: 360px;"></canvas>
-                        </div>
-                        <script>
-                            var data = [
-                                {
-                                    value: 30,
-                                    color: "#ff6c00",
-                                    highlight: "#ff6c00",
-                                    label: "Currency market"
-                                },
-                                {
-                                    value: 22,
-                                    color: "#5a9300",
-                                    highlight: "#5a9300",
-                                    label: "Precious metals"
-                                },
-                                {
-                                    value: 4,
-                                    color: "#00afc9",
-                                    highlight: "#00afc9",
-                                    label: "The stock market"
-                                },
-                                {
-                                    value: 30,
-                                    color: "#e0277a",
-                                    highlight: "#e0277a",
-                                    label: "Futures"
-                                },
-                                {
-                                    value: 4,
-                                    color: "#743600",
-                                    highlight: "#743600",
-                                    label: "Startups"
-                                },
-                                {
-                                    value: 10,
-                                    color: "#5c2d9c",
-                                    highlight: "#5c2d9c",
-                                    label: "Options"
-                                }
-                            ];
-
-                            var options = {
-                                percentageInnerCutout: 80,
-                                segmentStrokeWidth: 1
-                            }
-
-                            //график на главную
-                            var ctx = document.getElementById("diagram").getContext("2d");
-                            var myDoughnutChart = new Chart(ctx).Doughnut(data, options);
-                        </script>
-
-                    </div>
+    <footer>
+        <div style="clear: both;">
+            <%-- <nav>
+                <ul>
+                    <li>
+                        <a class="active" href="/en/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/en/about/">About</a>
+                    </li>
+                    <li>
+                        <a href="/en/investments/">Investments</a>
+                    </li>
+                    <li>
+                        <a href="/en/partners/">Partners</a>
+                    </li>
+                    <li>
+                        <a href="/en/news/">News</a>
+                    </li>
+                    <li>
+                        <a href="/en/faq/">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="/en/contacts/">Contacts</a>
+                    </li>
+                    <li><strong>
+                        <a href="/media/cms_page_media/2016/2/2/agreementENG.PDF" target="_blank" title="Download contract">
+                            <span class="filetitle">Download contract</span>
+                        </a>
+                    </strong></li>
+                </ul>
+            </nav>--%>
+            <div class="col-md-8 copyright">
+                <div class="row">
+                    <a class="logo" href="/">
+                        <img src="images/logo.png" alt="">
+                    </a>
                 </div>
-                <div class="col-lg-4 txtpadding">
+                <div class="row">
+                    <p style="color: #ffffff; float: left; font-size: 10px;">© 2015 Malta Private Invesment. All Rights Reserved</p>
                 </div>
+            </div>
+            <div class="col-md-4 protect">
+                <span class="col-md-6 plugin_picture">
+                    <img width="62" height="57" src="images/ddos.png" alt="" />
+                </span>
+                <span class="col-md-6 plugin_picture">
+                    <img width="53" height="57" src="images/ssl.png" alt="" />
+                </span>
             </div>
         </div>
-    </div>
-
-    
-    <!-- footer -->
-    <div id="footer">
-        <div class="container">
-            <div class="col-lg-5">
-                <span style="color: #F6921E; font-weight: bold;">support@BitQuick24.com</span>
-            </div>
-            <div class="col-lg-7">
-                <div id="social">
-                    <span><a target="_blank" href="#"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></span>
-                    <span><a target="_blank" href="#"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></span>
-                </div>
-            </div>
-        </div>
-    </div>
+    </footer>
 
     <!-- Script to Activate the Carousel -->
     <script>
@@ -304,10 +224,7 @@
         })
     </script>
     <!--end of Script to Activate the Carousel -->
-    <div class="container body-content">
-        <asp:ContentPlaceHolder ID="MainContent" runat="server">
-        </asp:ContentPlaceHolder>
-    </div>
+   
 
 
 </body>

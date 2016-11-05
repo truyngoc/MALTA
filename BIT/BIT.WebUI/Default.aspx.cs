@@ -46,7 +46,7 @@ namespace BIT.WebUI
             {
                 if (!fBrowserIsMobile())
                 {
-                    mp1.Show();
+                   // mp1.Show();
                 }
                 //
             }

@@ -12,7 +12,7 @@
     <meta name="author" content="Mosaddek" />
     <meta name="keyword" content="FlatLab, Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina" />
     <link href="../favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <title>BitQuick24</title>
+    <title>Malta</title>
     <meta name="csrf-token" content="AvJsvFUkFTxZxtYHOn19V6YN6zqQExtwl6k0WVSd" />
     <link href="../Content/slidebars.css" rel="stylesheet" />
     <!-- Custom styles for this template -->
@@ -82,7 +82,7 @@
                 <header class="header white-bg">
                     <!--logo start-->
                     <a href="../admin/Dashboard.aspx" class="logo">
-                        <img src="../images/logo_BitQuick.png" />
+                        <img src="../images/logo.png" />
                     </a>
                     <!--logo end-->
                     <div class="sidebar-toggle-box">
@@ -97,7 +97,7 @@
                     </div>
                     <div class="top-nav ">
                         <!--search & user info start-->
-                        <ul class="nav pull-right top-menu">
+                       <%-- <ul class="nav pull-right top-menu">
                             <li class="border-r">
                                 <div id="google_translate_element"></div>
                                 <script type="text/javascript">
@@ -107,8 +107,7 @@
                                 </script>
                                 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
                             </li>
-                            <li class="border-r"></li>
-                        </ul>
+                        </ul>--%>
                         <!--search & user info end-->
                     </div>
                 </header>

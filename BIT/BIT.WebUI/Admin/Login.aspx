@@ -1,8 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="BIT.WebUI.Admin.Login" %>
 
 <%@ Register TagPrefix="recaptcha" Namespace="Recaptcha" Assembly="Recaptcha" %>
-
-
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -13,7 +11,7 @@
     <meta name="author" content="Mosaddek" />
     <meta name="keyword" content="FlatLab, Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina" />
     <link rel="shortcut icon" href="favicon.png" />
-    <title>BitQuick24 Login</title>
+    <title>Malta Login</title>
     <meta name="csrf-token" content="AvJsvFUkFTxZxtYHOn19V6YN6zqQExtwl6k0WVSd" />
     <script src="../Scripts/jquery-1.10.2.js"></script>
     <script src="../Scripts/jquery-1.10.2.min.js"></script>
@@ -44,11 +42,11 @@
     <noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=1ArLn1QolK1052" style="display:none" height="1" width="1" alt="" /></noscript>
     <!-- End Alexa Certify Javascript -->
 </head>
-<body style="background-color: #E6E7E8;">
+<body style="background-color: #FFFFFF;">
     <div class="container">
         <div style="text-align: center; margin: 60px auto 0; padding: 0 15px;"  class="logo-login">
             <a href="/" class="logo_login">
-                <img src="../images/logo_BitQuick.png" />
+                <img src="../images/invest-logo.png" />
             </a>
         </div>
         <form style="margin-top: 1px;" class="form-signin" runat="server">
@@ -56,14 +54,13 @@
             <div class="text-center">
                 <asp:Label runat="server" ID="lblMessage" ForeColor="#cc0066" Text="*Username or Password is not valid" Visible="false"></asp:Label>
             </div>
-
             <div class="login-wrap">
                 <asp:TextBox ID="txtUserName" runat="server" class="form-control" Style="height: 41px;" placeholder="Username" />
                 <asp:RequiredFieldValidator ErrorMessage="Enter your username" ControlToValidate="txtUserName" runat="server" ForeColor="#cc0066" Text="Enter your username" Display="Dynamic" />
                 <asp:TextBox ID="txtPassword" runat="server" TextMode="Password" class="form-control" Style="height: 41px;" placeholder="Password" />
                 <div style="padding: 5px 0;">
-                    <asp:Button ID="btnLogin" runat="server" Text="Login" class="btn btn-info btn-login" OnClick="btnLogin_Click" />
-                    <asp:Button ID="btnRegister" runat="server" Text="Register" class="btn btn-info btn-login" />
+                    <asp:Button ID="btnLogin" runat="server" Text="Login" class="btn yellow btn-info btn-login" OnClick="btnLogin_Click" />
+                    <asp:Button ID="btnRegister" runat="server" Text="Register" class="btn blue btn-info btn-login" />
                 </div>
                 <div>
                     <asp:LinkButton runat="server" ID="lnkLostPass" style="color: #ED1F24;" OnClick="lnkLostPass_Click" Text="Forgot your password ? Click here"> </asp:LinkButton>

@@ -58,7 +58,7 @@ a, a:hover, a:focus {
     margin: 100px auto 0;
     border-radius: 5px;
     -webkit-border-radius: 5px;
-    background-color: #F5921E;
+    background-color: #0E274D;
     /*#F5921E*/
     color: #fff;
 }
@@ -112,28 +112,43 @@ a, a:hover, a:focus {
     }
 
     .form-signin .btn-login {
-        background-color: #000;
+        background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+        border-radius: 3px;
         color: #ffffff;
-        text-transform: uppercase;
+        font-family: Panton;
+        font-size: 14px;
         font-weight: bold;
-        /*font-family: 'Open Sans', sans-serif;*/
-        margin-bottom: 15px;
+        padding: 5px 30px;
+        text-decoration: none;
     }
 
-    .form-signin p {
-        text-align: center;
+.btn.yellow {
+    border: 3px solid #969817;
+    transition: all 0.5s linear 0s;
+}
+
+.btn.blue:hover {
+    background: #087cbf none repeat scroll 0 0;
+}
+
+.btn.yellow:hover {
+    background: #969817 none repeat scroll 0 0;
+}
+
+.form-signin p {
+    text-align: center;
+    color: #b6b6b6;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.form-signin a {
+    color: #41cac0;
+}
+
+    .form-signin a:hover {
         color: #b6b6b6;
-        font-size: 16px;
-        font-weight: 300;
     }
-
-    .form-signin a {
-        color: #41cac0;
-    }
-
-        .form-signin a:hover {
-            color: #b6b6b6;
-        }
 
 .login-wrap {
     padding: 0 28px;
@@ -224,7 +239,7 @@ a, a:hover, a:focus {
 }
 
 .nav-collapse {
-    background-color: #E6E7E8 !important;
+    background-color: #021929 !important;
     padding: 0;
 }
 
@@ -369,8 +384,8 @@ ul.sidebar-menu li {
 }
 
 .white-bg {
-    background-color: #E6E7E8;
-    border-bottom: 10px solid #F5921E;
+    background: rgba(0, 0, 0, 0) url("../images/header-bg.png") no-repeat scroll center bottom / cover ;
+    border-bottom: 10px solid #FFFFFF;
 }
 
 .wrapper {
@@ -6594,8 +6609,8 @@ img {
     }
 
 .logo_login img {
-    width: 160px;
-    height: 40px;
+    height: 103px;
+    width: 168px;
 }
 
 .logo_login strong {

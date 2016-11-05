@@ -74,13 +74,7 @@
                             EN
                         </a>
                     </div>
-                    <%--  <div id="google_translate_element"></div>
-                    <script type="text/javascript">
-                        function googleTranslateElementInit() {
-                            new google.translate.TranslateElement({ pageLanguage: 'vi', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, multilanguagePage: true }, 'google_translate_element');
-                        }
-                    </script>
-                    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>--%>
+                   
                 </div>
             </div>
             <div class="" style="clear: both; background-image: url('images/header-bg.png')!important;">
@@ -148,56 +142,8 @@
 
 
     <!-- end header -->
-
-    <!-- Full Page Image Background Carousel Header -->
-    <%--<header class="carousel slide" id="myCarousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li class="" data-slide-to="0" data-target="#myCarousel"></li>
-            <li data-slide-to="1" data-target="#myCarousel" class=""></li>
-            <li data-slide-to="2" data-target="#myCarousel" class="active"></li>
-        </ol>
-        <!-- Wrapper for Slides -->
-        <div class="carousel-inner">
-            <div class="item next left">
-                <!-- Set the third background image using inline CSS below. -->
-                <div style="background-image: url('images/slide-2.jpg');" class="fill">
-                    <img src="images/slide-2.jpg" style="height:408px;" />
-                </div>
-                <div class="carousel-caption">
-                </div>
-                <div class="grid"></div>
-            </div>
-            <div class="item">
-                <!-- Set the first background image using inline CSS below. -->
-                <div style="background-image: url('images/slide-3.jpg');" class="fill">
-                    <img src="images/slide-3.jpg" style="height:408px;"/>
-                </div>
-                <div class="carousel-caption">
-                </div>
-                <div class="grid"></div>
-            </div>
-            <div class="item active left">
-                <!-- Set the second background image using inline CSS below. -->
-                <div style="background-image: url('images/slide-1.jpg');" class="fill">
-                    <img src="images/slide-1.jpg" style="height:408px;"/>
-                </div>
-                <div class="carousel-caption">
-                </div>
-                <div class="grid"></div>
-            </div>
-        </div>
-        <!-- Controls -->
-        <a data-slide="prev" href="#myCarousel" class="left carousel-control">
-            <span class="icon-prev"></span>
-        </a>
-        <a data-slide="next" href="#myCarousel" class="right carousel-control">
-            <span class="icon-next"></span>
-        </a>
-    </header>--%>
-
     <!-- ABOUT US -->
-    <div id="about" style="padding: 30px 0;">
+    <div id="" style="padding: 30px 0;">
         <div class="container">
             <!-- ABOUT US -->
             <div style="" class="col-lg-12">

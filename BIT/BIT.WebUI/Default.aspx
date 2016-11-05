@@ -27,11 +27,11 @@
         <cc1:ModalPopupExtender ID="mp1" runat="server" PopupControlID="Panl1" TargetControlID="Button1"
             CancelControlID="Button2" BackgroundCssClass="Background">
         </cc1:ModalPopupExtender>
-        <asp:Panel ID="Panl1" runat="server" CssClass="Popup" align="center" Style="display: none">
+        <%--<asp:Panel ID="Panl1" runat="server" CssClass="Popup" align="center" Style="display: none">
             <iframe style="width: 1290px; height: 520px;" id="irm1" src="Admin/Promotion.aspx" runat="server"></iframe>
             <br />
             <asp:Button ID="Button2" runat="server" Text="Close" />
-        </asp:Panel>
+        </asp:Panel>--%>
     </form>
 </asp:Content>
 

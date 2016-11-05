@@ -200,6 +200,9 @@
     <Content Include="fonts\slide-3.jpg" />
     <Content Include="fonts\vision.jpg" />
     <Content Include="images\1.jpg" />
+    <Content Include="images\about3_SCVbCg1.png" />
+    <Content Include="images\about4_USbIJnY.png" />
+    <Content Include="images\about_uP9FEEU.jpg" />
     <Content Include="images\add-icon.png" />
     <Content Include="images\Athena_Bitcoin_OWL.png" />
     <Content Include="images\backgroup_site.jpg" />
@@ -227,6 +230,7 @@
     <Content Include="images\hero-unit.jpg" />
     <Content Include="images\icon_translate.jpg" />
     <Content Include="images\icon_translate.png" />
+    <Content Include="images\insurance_mfhw3E2.jpg" />
     <Content Include="images\key-icon.png" />
     <Content Include="images\loading.gif" />
     <Content Include="images\logo - BITINVEST-01.png" />
@@ -237,6 +241,7 @@
     <Content Include="images\logo.png" />
     <Content Include="images\logo_BitQuick.png" />
     <Content Include="images\mail.png" />
+    <Content Include="images\malta_certificate-of-incorporation_1NTYVOX.jpg" />
     <Content Include="images\marker_1.gif" />
     <Content Include="images\menu_divider.gif" />
     <Content Include="images\o-BITCOIN-facebook.jpg" />
